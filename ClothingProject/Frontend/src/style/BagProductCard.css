@@ -1,0 +1,15 @@
+.BagProductCard-Container {
+  color: black;
+  display: flex;
+  flex-direction: row;
+}
+.BagProductCard-Details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.BagProductCard-Container Img {
+    max-width: 250px;
+
+}

@@ -1,0 +1,70 @@
+.Home-Container {
+  display: flex;
+  justify-content: flex-end;
+}
+.Home-Right img {
+  max-width: 110vh;
+  overflow: hidden;
+}
+
+.Home {
+}
+.wrapper {
+  max-width: 100%;
+  overflow: hidden;
+  display: absolute !important;
+  margin-top: -700px;
+}
+
+.marquee {
+  display: absolute;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  animation: marquee 3.2s linear infinite;
+  font-size: 120px;
+}
+
+.marquee p {
+  font-weight: bold;
+  color: grey;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.Home-Footer img {
+  width: 100%;
+  align-items: center;
+}
+.Home-Left {
+  margin-left: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Home-Left a {
+  height: 10%;
+  float: right;
+
+  width: 100%;
+  border-bottom: 1px solid grey;
+  color: black;
+  font-size: 50px;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+  background-color: white;
+}
+
+.Home-Left a:hover {
+  color: grey;
+}

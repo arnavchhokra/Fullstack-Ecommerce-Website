@@ -1,0 +1,37 @@
+.Selection-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.Selection-Right Img {
+  padding-top: 35px;
+  max-width: 600px;
+  float: right;
+}
+.Selection-Right {
+  float: right;
+}
+
+.Selection-Left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Selection-ButtonRow button {
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 12px;
+  margin-right: 5px;
+}
+.Selection-ButtonRow button:hover {
+  color: white;
+  background-color: black;
+}
+.Selection-ButtonRow {
+  padding: 10px;
+}

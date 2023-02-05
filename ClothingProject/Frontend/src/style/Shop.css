@@ -1,0 +1,15 @@
+.Shop-container {
+  /* display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: 400px 400px 400px 400px;
+  */
+  margin-left: 15px;
+  margin-right: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 0.25fr);
+  justify-content: center;
+  align-items: center;
+}
+
+.Shop {
+}

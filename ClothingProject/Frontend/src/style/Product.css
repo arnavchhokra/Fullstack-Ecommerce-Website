@@ -1,0 +1,52 @@
+.Product-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 90px;
+}
+
+.Product-Gen {
+  color: #ff0000;
+}
+
+.Product-Tile {
+  font-size: 50px;
+  padding: 5px;
+}
+.Product-Left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.Product-Resize {
+  color: red;
+}
+
+.Product-right {
+  border: 1px solid black;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.Product-right button {
+  background-color: black;
+}
+.Product {
+  color: black;
+}
+
+.Product-right input {
+  background-color: black;
+  color: white;
+}
+.canvas {
+  border: 1px solid black;
+}
+
+.Product-Left button {
+  background-color: black;
+  max-width: 200px;
+}

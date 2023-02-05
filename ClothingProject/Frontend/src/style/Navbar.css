@@ -1,0 +1,32 @@
+.Navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 25px;
+}
+.Navbar-container a {
+  color: black;
+  text-decoration: none;
+}
+.Navbar-container a:hover {
+  color: grey;
+}
+.Navbar-Left {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  font-size: 15px;
+}
+.Navbar-Right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  font-size: 15px;
+}
+.Navbar {
+  background-color: white;
+}
+
+.Navbar-Logo a {
+}
