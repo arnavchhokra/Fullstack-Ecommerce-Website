@@ -13,3 +13,9 @@
 
 .Shop {
 }
+
+@media only screen and (max-width: 530px) {
+  .Shop-container {
+    grid-template-columns: repeat(2, 0.25fr);
+  }
+}

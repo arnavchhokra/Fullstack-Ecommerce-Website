@@ -12,7 +12,6 @@ function Navbar() {
           ELEVEN58
         </a>
         <div className="Navbar-Right">
-          <button>SEARCH</button>
           <a href="#">PROFILE</a>
           <a hreg="#">
             <a href="/Bag">BAG</a>

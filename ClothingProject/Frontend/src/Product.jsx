@@ -60,7 +60,6 @@ function Product() {
           <span className="Product-Price">${product.price}</span>
           <span className="Product-Desc">{product.description}</span>
           <button className="Product-Size">S</button>
-          <button className="Product-Color">BLACK</button>
           <button className="Product-Color">Add To Cart</button>
         </div>
         <div className="Product-right">

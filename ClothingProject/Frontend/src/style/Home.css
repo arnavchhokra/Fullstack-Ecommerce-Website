@@ -1,9 +1,12 @@
 .Home-Container {
   display: flex;
   justify-content: flex-end;
+  height: 90vh;
 }
 .Home-Right img {
-  max-width: 110vh;
+  /* max-width: 110vh;*/
+  height: calc(80vh);
+
   overflow: hidden;
 }
 
@@ -58,7 +61,8 @@
   width: 100%;
   border-bottom: 1px solid grey;
   color: black;
-  font-size: 50px;
+  /*  font-size: 50px;*/
+  font-size: calc(1rem + 2vw);
   text-decoration: none;
   display: block;
   padding: 15px;
@@ -68,3 +72,17 @@
 .Home-Left a:hover {
   color: grey;
 }
+
+@media only screen and (max-width: 880px) {
+  .Home-Right img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .marquee {
+    display: none;
+  }
+}
+
+

@@ -4,6 +4,7 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 90px;
+  padding: 20px;
 }
 
 .Product-Gen {
@@ -27,7 +28,7 @@
 
 .Product-right {
   border: 1px solid black;
-  max-width: 500px;
+  max-width: 50vh;
   display: flex;
   flex-direction: column;
 }

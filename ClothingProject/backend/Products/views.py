@@ -64,12 +64,12 @@ class UserProfileView(APIView):
             return Response({'error':'Not authenticated'}, status=status.HTTP_400_BAD_REQUEST)
 
 
-
 @api_view(['GET'])
 def products_list(request):
     products_v = products.objects.all()
     serializer = productsSerializer(products_v,many=True)
     return Response(serializer.data)
+
 
 
 @api_view(['GET'])

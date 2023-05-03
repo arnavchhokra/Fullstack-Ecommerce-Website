@@ -26,7 +26,14 @@
 }
 .Navbar {
   background-color: white;
+  height: 8vh;
 }
 
 .Navbar-Logo a {
+}
+
+@media only screen and (max-width: 530px) {
+  .Navbar-Left {
+    display: None;
+  }
 }
