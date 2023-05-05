@@ -12,7 +12,7 @@ function Navbar() {
           ELEVEN58
         </a>
         <div className="Navbar-Right">
-          <a href="#">PROFILE</a>
+          <a href="/Profile">PROFILE</a>
           <a hreg="#">
             <a href="/Bag">BAG</a>
           </a>

@@ -12,6 +12,7 @@ import Shop from "./Shop.jsx";
 import Bag from "./Bag";
 import Product from "./Product";
 import Login from "./Login";
+import Profile from "./Profile";
 
 const App = () => {
   const login_api = async (email, password, success, fail) => {
@@ -49,6 +50,7 @@ const App = () => {
             <Route path="/Bag" element={<Bag />} />
             <Route path="/Create" element={<Product />} />
             <Route path="/Shop/:id" element={<Product />} />
+            <Route path="/Profile" element={<Profile />} />
             <Route path="/Login" element={<Login login_api={login_api} />} />
           </Routes>
         </BrowserRouter>

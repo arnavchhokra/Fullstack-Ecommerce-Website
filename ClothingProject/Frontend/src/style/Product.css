@@ -12,7 +12,7 @@
 }
 
 .Product-Tile {
-  font-size: 50px;
+  font-size: calc(1rem + 5vh);
   padding: 5px;
 }
 .Product-Left {

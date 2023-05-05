@@ -1,0 +1,8 @@
+.Profile {
+  color: black;
+  font-size: calc(1rem + 1vw);
+}
+.Profile button {
+  color: white;
+  background-color: black;
+}

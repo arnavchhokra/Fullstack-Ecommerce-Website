@@ -1,10 +1,12 @@
 import React, { useContext } from "react";
 import Navbar from "./Components/Navbar";
+import { useNavigate } from "react-router-dom";
 
 const Login = ({ login_api }) => {
   const [email, setEmail] = React.useState("");
   const [password, setPassword] = React.useState("");
   const [message, setMessage] = React.useState("");
+  let navigate = useNavigate();
 
   const success = async (text) => {
     console.log("Yeah! Authenticated!");
